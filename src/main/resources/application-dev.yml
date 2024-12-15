@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: ${DATABASE_URI}
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+FRONTEND_URL: ${FRONTEND_URL}
+
+server:
+  port: 8080
+  servlet:
+    context-path: /todo
